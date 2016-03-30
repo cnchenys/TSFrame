@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface TSViewController : UIViewController
 
 
@@ -30,6 +31,18 @@
 
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
+
+
+- (void)ts_pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
+
+- (void)ts_presentViewController:(UIViewController *)viewController animated:(BOOL)animated;
+
+- (void)ts_popViewControllerAnimated:(BOOL)animated;
+
+
+#pragma mark -
+#pragma mark - Overwrite
 /**
  * Sent to the controller before the keyboard slides in.
  */
@@ -49,4 +62,7 @@
  * Sent to the controller after the keyboard has slid out.
  */
 - (void)keyboardDidDisappear:(BOOL)animated withBounds:(CGRect)bounds;
+
+
+
 @end
