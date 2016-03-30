@@ -57,6 +57,7 @@
 		A679A28D1CAC2388006251FF /* TSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewController.m; sourceTree = "<group>"; };
 		A679A28E1CAC2388006251FF /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		A679A28F1CAC2388006251FF /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		A679A2961CAC2433006251FF /* TSFrame-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSFrame-Prefix.pch"; sourceTree = "<group>"; };
 		EE226983F891B239EA7A106C /* libPods-TSFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25AF2CB261CA5F5B83022FC /* Pods-TSFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSFrame/Pods-TSFrame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +136,7 @@
 		A679A2821CAC2388006251FF /* TSFrame */ = {
 			isa = PBXGroup;
 			children = (
+				A679A2961CAC2433006251FF /* TSFrame-Prefix.pch */,
 				A679A2831CAC2388006251FF /* NSArray+TS.h */,
 				A679A2841CAC2388006251FF /* NSArray+TS.m */,
 				A679A2851CAC2388006251FF /* NSObject+TS.h */,
