@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface TSViewController : UIViewController
+@interface TSViewController : UIViewController {
+    BOOL _isViewAppearing;
+    BOOL _hasViewAppeared;
+    BOOL _autoresizesForKeyboard;
+}
 
 
 

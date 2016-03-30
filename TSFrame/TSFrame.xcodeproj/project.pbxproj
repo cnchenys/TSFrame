@@ -18,6 +18,7 @@
 		A6994C331CAC0A6B006C80AF /* NSArray+TS.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994C321CAC0A6B006C80AF /* NSArray+TS.m */; };
 		A6994C361CAC0B89006C80AF /* NSObject+TS.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994C351CAC0B89006C80AF /* NSObject+TS.m */; };
 		A6994C391CAC0D6C006C80AF /* TSModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994C381CAC0D6C006C80AF /* TSModelViewController.m */; };
+		A6994C3D1CAC1FD4006C80AF /* TSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6994C3C1CAC1FD4006C80AF /* TSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		A6994C371CAC0D6C006C80AF /* TSModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSModelViewController.h; sourceTree = "<group>"; };
 		A6994C381CAC0D6C006C80AF /* TSModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSModelViewController.m; sourceTree = "<group>"; };
 		A6994C3A1CAC0DE5006C80AF /* TSModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSModelDelegate.h; sourceTree = "<group>"; };
+		A6994C3B1CAC1FD4006C80AF /* TSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewController.h; sourceTree = "<group>"; };
+		A6994C3C1CAC1FD4006C80AF /* TSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewController.m; sourceTree = "<group>"; };
 		E953DAE84E599B257F31BA00 /* libPods-TSFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +88,8 @@
 				7409EA871CABDCB1002029E1 /* TSViewController.m */,
 				A6994C371CAC0D6C006C80AF /* TSModelViewController.h */,
 				A6994C381CAC0D6C006C80AF /* TSModelViewController.m */,
+				A6994C3B1CAC1FD4006C80AF /* TSTableViewController.h */,
+				A6994C3C1CAC1FD4006C80AF /* TSTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 				74DEE2001CABDAE4003D1073 /* ViewController.m in Sources */,
 				74DEE1FD1CABDAE4003D1073 /* AppDelegate.m in Sources */,
 				74DEE1FA1CABDAE4003D1073 /* main.m in Sources */,
+				A6994C3D1CAC1FD4006C80AF /* TSTableViewController.m in Sources */,
 				7409EA881CABDCB1002029E1 /* TSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "TSViewController.h"
+#import "TSModelDelegate.h"
 
 @protocol TSModel;
 
@@ -27,11 +28,11 @@ typedef struct {
 
 @interface TSModelViewController : TSViewController <TSModelDelegate>
 
-@property(nonatomic ,strong, readonly) id<TSModel> model;
+@property(nonatomic ,strong) id<TSModel> model;
 /**
  * An error that occurred while trying to load content.
  */
-@property(nonatomic ,strong, readonly) NSError *modelError;
+@property(nonatomic ,strong) NSError *modelError;
 
 @property(assign) Flags flags;
 /**
