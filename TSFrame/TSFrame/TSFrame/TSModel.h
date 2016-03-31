@@ -87,7 +87,7 @@ typedef NS_ENUM(NSInteger ,TSURLRequestCachePolicy) {
 #pragma mark -
 #pragma mark TSModel
 @interface TSModel : NSObject <TSModel> {
-    NSMutableArray<TSModelDelegate>* _delegates;
+    NSMutableArray* _delegates;
 }
 
 /**

@@ -7,6 +7,7 @@
 //
 
 #import "TSModel.h"
+#import "TSModelDelegate.h"
 
 @implementation TSModel
 

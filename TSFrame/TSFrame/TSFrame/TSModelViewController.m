@@ -231,7 +231,6 @@
     if (!_model) {
         [self createModel];
     }
-    
     if (!_model) {
         [self createInterstitialModel];
     }
